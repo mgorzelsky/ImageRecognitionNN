@@ -13,8 +13,7 @@ async function run() {
     const labels = [...trainLabels, ...testLabels];
     const digits = [...trainDigits, ...testDigits];
 
-
-    // Turn the arrays of MNIST data into something that Brain.js can work with. 
+    // Turn the arrays of MNIST data into something that Brain.js can work with (array of objects with {input:, output:}). 
     const imageSize = 28 * 28;
     const trainingData = [];
 
