@@ -2,7 +2,7 @@ const fs = require('fs');
 const http = require('http');
 const zlib = require('zlib');
 
-const dataDir = './data/';
+const dataDir = '../data/';
 const mnistBaseURL = 'http://yann.lecun.com/exdb/mnist/';
 const trainImagesFile = 'train-images-idx3-ubyte';
 const trainLabelsFile = 'train-labels-idx1-ubyte';

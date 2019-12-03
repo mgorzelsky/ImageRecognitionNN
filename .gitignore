@@ -1,4 +1,7 @@
 package-lock.json
+t10k*
+train-images*
+train-labels*
 
 # Logs
 logs
